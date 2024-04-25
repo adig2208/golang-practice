@@ -1,0 +1,9 @@
+PUT http://localhost:8080/events/3
+Content-Type: application/json
+
+{
+    "name": "Updated Test Event",
+    "description": "An updated test event for the api",
+    "location": "WVG updated",
+    "dateTime": "2025-01-01T15:30:00.000Z"
+}
